@@ -2,15 +2,15 @@ import './App.css'
 import Footer from './components/Footer'
 import MainContent from './components/MainContent'
 import Navigation from './components/Navigation/Navigation'
-function App() {
 
+function Layout() {
   return (
     <>
-    <Navigation />
+       <Navigation />
     <MainContent />
     < Footer/>
-    </>
+    </>   
   )
 }
 
-export default App
+export default Layout

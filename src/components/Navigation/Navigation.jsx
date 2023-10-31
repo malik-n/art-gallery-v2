@@ -1,13 +1,10 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Button, Container, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link, NavLink, Route, Router } from 'react-router-dom'
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark">
+
+      <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark">
       <Container fluid>
         <Navbar.Brand href="#">Art Gallery</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -43,6 +40,8 @@ function Navigation() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
+
   );
 }
 
