@@ -1,0 +1,15 @@
+.image {
+  height: 350px;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+.card {
+  box-shadow: 5px 5px 5px gray;
+}
